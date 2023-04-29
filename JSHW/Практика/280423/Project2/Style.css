@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;;
+}
+header{
+    height: 70px;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    transition: 0.5s;
+}
+h1:hover{
+    color: blue;
+    font-size: 50px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background: rgb(200, 248, 249);
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    height: calc(100vw / 3);
+    width: calc(50% - 20px);
+    background-color: rgb(39, 168, 233);
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.item:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+.item1{
+    background-image: url(img/block_151875.jpg);
+}
+.item2{
+    background-image: url(img/istockphoto-1126614795-612x612.jpg);
+}
+.item3{
+    background-image: url(img/istockphoto-1301517964-612x612.jpg);
+}
+.item4{
+    background-image: url(img/istockphoto-1347540656-612x612.jpg);
+}
+.item5{
+    background-image: url(img/istockphoto-1381320093-612x612.jpg);
+}.item6{
+    background-image: url(img/istockphoto-1093694146-612x612.jpg);
+}.item7{
+    background-image: url(img/istockphoto-1409382034-612x612.jpg);
+}.item8{
+    background-image: url(img/istockphoto-625916992-612x612.jpg);
+}

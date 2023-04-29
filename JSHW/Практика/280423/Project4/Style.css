@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+header{
+    background-color: #1ABC9C;
+}
+.wrapper{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.projects-title{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.projects-list{
+    display: flex;
+    gap: 35px;
+}
+.projects-item img{
+    width: 100%;
+}
+.projects-item{
+    position: relative;
+}
+.projects-item:hover .projects-item-hover{
+    display: block;
+}
+.projects-item-hover{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    padding: 15px 35px;
+    background-color: rgba(0, 0, 0, 0.38);
+}
+.projects-item-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.projects-item-text{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-link{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+.nav-link:not(:last-child){
+    margin-right: 20px;
+}
+.social-icon:not(:last-child){
+    margin-right: 20px;
+}
+/* О нас */
+.intro{
+    display: flex;
+    align-items: center;
+}
+.intro-img{
+    width: 50%;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.intro-text{
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+/* Проекты */
+.projects{
+    background-color: #DCFFEB;
+    padding: 125px 0;
+}
+.projects-wrapper{
+    width: 90%;
+    margin: auto;
+}
+footer{
+    padding: 80px 0;
+}
+.footer-wrapper{
+    width: 90%;
+    margin: auto;
+}
+.footer-title {
+    margin-bottom: 55px;
+    font-size: 35px;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item img{
+    display: block;
+    margin: auto;
+}
+.footer-item-title{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #999999;
+    margin: 25px 0;
+}
+.footer-item-title1{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #999999;
+    margin-top: 40px;
+}
+.footer-item-text{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 25px 0;
+}
+.footer-item-text1{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    color: #F7654A;
+}
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif; */

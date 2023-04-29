@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 30px;
+}
+.contList{
+    margin-left: 20px;
+    padding: 20px;
+}
+.contList1{
+    padding: 20px 0px;
+}
+table, td, th{
+    border: 1px solid black;
+}
+img{
+    width: 60px;
+    height: 30px;
+}
+td{
+    padding: 3px;
+}
