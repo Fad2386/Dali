@@ -238,17 +238,145 @@
 //  const numders = [10, 20, 30]
 //  name(numders)
 
- function names() {
-  console.log(`Имя ${x1}, Фамилия ${t1}`)
- }
-  let x1 = prompt("Enter Name")
-  let t1 = prompt("Enter Name1")
-names ()
+//  function names() {
+//   console.log(`Имя ${x1}, Фамилия ${t1}`)
+//  }
+//   let x1 = prompt("Enter Name")
+//   let t1 = prompt("Enter Name1")
+// names ()
 
 
-function calc(x, y) {
-  const result = x**2 + y**2
-  return result
-}
-const num = calc(2, 4)
-console.log(num)
+// function calc(x, y) {
+//   const result = x**2 + y**2
+//   return result
+// }
+// const num = calc(2, 4)
+// console.log(num)
+
+// const user = 
+//  {
+//  Name: "Dali",
+//  age: "29",
+//  eMails: ['google@gmail.com', 'google@gmail.com']
+//  }
+// console.log(`Name is ${user.Name}. He is ${user.age} years old. Second e-mail is ${user.eMails[1]}`)
+
+// const users = [
+//         {
+//             age: 15,
+//             solary: 400000,
+//             email: 'google@gmail.com' 
+//         },
+//         {
+//             age: 39,
+//             solary: 400000,
+//             email: 'google@gmail.com' 
+//         },
+//         {
+//             age: 50,
+//             solary: 400000,
+//             email: 'google@gmail.com' 
+//         },
+//     ]
+//     console.log(users[users.length-1].age)
+
+//     damage
+
+//     const players = [
+//         {
+//            playerName: "Player 1",
+//            damage: 100
+//         },
+//         {
+//            playerName: "Player 2",
+//            damage: 200
+//         }
+//      ]
+     
+//      if (players[0].damage > players[1].damage) {
+//         alert(`${players[0].playerName} выйграл`);
+     
+//      } else if (players[0].damage < players[1].damage) {
+//         alert(`${players[1].playerName} выйграл.`);
+     
+//      } else {
+//         alert(`Ничья`);
+//      }
+
+//      const number = +prompt("Enter a number")
+
+// if(number % 10 == 8) {
+//     console.log(number)
+// }
+
+// const time = +prompt("Enter time")
+
+// if(number % 10 == 8) {
+//     console.log(number)
+// }
+
+// function getArray(number) {
+//     const num = []
+//     for(let i = 0; i < number; i++) {
+//         num.push(i)
+//     }
+//     return num
+// }
+// console.log(getArray(5)) 
+
+// function getArray(x, y) {
+//     const num = []
+    
+//     for(let i = x; i <= y; i++) {
+//         num.push(i)
+//     }
+    
+//     return num
+// }
+// const num1 = +prompt("Emter 1 number")
+// const num2 = +prompt("Emter 2 number")
+// console.log(getArray(num1, num2)) 
+
+// function getArray(x, y) {
+//     const num = []
+//     if(x < y){
+//     for(let i = x; i <= y; i++) {
+//         num.push(i)
+//     }
+// }
+//     else if (x>y){
+//         for(let i = y; i <= x; i++) {
+//             num.push(i)
+//         }
+//     }
+//     else{
+//         return "Nan"
+//     }
+    
+//     return num
+// }
+// console.log(getArray(8, 8))
+
+// /*numbers[i] > 50
+
+//     number % 2 == 0
+//     % - остаток от деления
+
+//     При делении на 2, если в остатке 0 - то число четное, иначе - нечетное
+//     10 % 2 = 0
+//     5 % 2 = 1
+
+//     10/2 = 5. 0 -ост ЧЕТ
+//     5/2 = 2. 1-ост НЕЧЕТ
+//     15/2 = 7. 1- ост НЕЧЕТ
+//     28/2 = 14. 0 - ост ЧЕТ
+//     23/2 = 11. 1 - ост НЕЧЕТ
+// */
+
+// const numbers = [5, 10, 15, 23, 28, 32]
+// for(let i = 0; i < numbers.length; i++) {
+//     if(numbers[i]%2 == 0){
+//         console.log(numbers[i])
+//     }
+// }
+// numbers()
