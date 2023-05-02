@@ -1,0 +1,19 @@
+   0 mkdir -p /opt/test/Dali.txt
+   1 ls -am
+   2 cd /opt
+   3 cd /opt/test
+   4 ls -am
+   5 ls -al
+   6 cd /opt
+   7 ls -al
+   8 cd
+   9 mkdir /opt/test/Dali
+  10 cat readme.txt >> /opt/test/Dali/test.txt
+  11 cat /opt/test/Dali/test.txt
+  12 ps -ef | head -2 >> /opt/test/Dali/test.txt
+  13 cat /opt/test/Dali/test.txt
+  14 mkdir /tmp/test2/Dali2
+  15 mkdir -p /tmp/test2/Dali2
+  16 mv /opt/test/Dali/test.txt /tmp/test2/Dali2/new2.txt
+  17 vi /tmp/test2/Dali2/new2.txt
+  18 cat /tmp/test2/Dali2/new2.txt
