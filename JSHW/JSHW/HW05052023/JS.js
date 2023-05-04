@@ -1,12 +1,13 @@
 
 function arrayNumbers(num1, num2) {
-  const numbers = [];
   for (let i = num1; i >= num2; --i) {
-    numbers.push(i);
+    if(i % 2 == 0) {
+      console.log(i)
+    }
   }
-  return numbers;
 }
-  console.log(arrayNumbers(55, 20));
+arrayNumbers(15, 2)
+   
 
 
 function power(x, y) {
