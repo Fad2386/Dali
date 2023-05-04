@@ -20,7 +20,7 @@
 //     2. Добавляем тег с помощью innerHTML
 //     3. += h1 из html добавить к h2 из JS
 
- const main = document.querySelector("main")
+//  const main = document.querySelector("main")
 // main.innerHTML += `<p>Hello</p>`
 
 // for(let i = 1; i <= 100; i++) {
@@ -51,47 +51,134 @@
 
 // Есть массив объектов. Для каждого объекта отобразить тег a, в href положить ссылки
 
-const links = [
-    {
-        name: "Google",
-        link: "https://google.com"
-    },
-    {
-        name: "Facebook",
-        link: "https://facebook.com"
-    },
-    {
-        name: "Instagram",
-        link: "https://instagram.com"
-    },
-]
+// const links = [
+//     {
+//         name: "Google",
+//         link: "https://google.com"
+//     },
+//     {
+//         name: "Facebook",
+//         link: "https://facebook.com"
+//     },
+//     {
+//         name: "Instagram",
+//         link: "https://instagram.com"
+//     },
+// ]
 
-for(let i = 0; i < links.length; i++) {
-    main.innerHTML += `<a href = "${links[i].link}">${links[i].name}</a>`
-}
+// for(let i = 0; i < links.length; i++) {
+//     main.innerHTML += `<a href = "${links[i].link}">${links[i].name}</a>`
+// }
 
-const products = [
-    {
-        name: "Iphone 14",
-        price: 70000
-    },
-    {
-        name: "Iphone 13",
-        price: 60000
-    },
-    {
-        name: "Samsung S30",
-        price: 65000
-    }
-]
+// const products = [
+//     {
+//         name: "Iphone 14",
+//         price: 70000
+//     },
+//     {
+//         name: "Iphone 13",
+//         price: 60000
+//     },
+//     {
+//         name: "Samsung S30",
+//         price: 65000
+//     }
+// ]
 
-for(let i = 0; i < products.length; i++) {
-    main.innerHTML += `<div class="products1"
-    p<h5>${products[i].name}</h5> 
-    <p>${products[i].price}</p>
-    </div>`
+// for(let i = 0; i < products.length; i++) {
+//     main.innerHTML += `<div class="products1"
+//     p<h5>${products[i].name}</h5> 
+//     <p>${products[i].price}</p>
+//     </div>`
     
+// }
+
+// let sum = 0
+// for(let i = 0; i < products.length; i++){
+//     sum += products[i].price
+// }
+// main.innerHTML += `<h2>Summ: ${sum}<h2>`
+
+const users = [
+    {
+        email: "test@gmail.com",
+        login: "Test"
+    },
+    {
+        email: "starta@gmail.com",
+        login: "Starta University"
+    },
+    {
+        email: "admin@gmail.com",
+        login: "Admin"
+    },
+
+]
+
+{/* <div class="user">
+        <h5>Email</h5>
+        <p>Login</p>
+    </div> */}
+const usersContainer = document.querySelector(".users-container");
+
+for (let i = 0; i < users.length; i++) {
+    usersContainer.innerHTML += `<div class="user"
+        <h5>${users[i].email}</h5> 
+        <p>${users[i].login}</p>
+    </div>`;
 }
+users.forEach(function (us) {
+    usersContainer.innerHTML += `<div class="user"
+        <h5>${us.email}</h5> 
+        <p>${us.login}</p>
+    </div>`;
+})
+console.log(users)
 
+// const posts = [
+//     {
+//         title: "My first title",
+//         descr: "My descr",
+//         author: "Test"
+//     },
+//     {
+//         title: "My second title",
+//         descr: "My second descr",
+//         author: "Admin"
+//     },
+//     {
+//         title: "My third title",
+//         descr: "My third descr",
+//         author: "Starta University"
+//     },
+// ]
 
+// const postsCont = document.querySelector(".posts-container");
 
+// for (let i = 0; i < posts.length; i++) {
+//     postsCont.innerHTML += `<div class="post"
+//         <h6>${posts[i].title}</h6> 
+//         <p>${posts[i].descr}</p>
+//         <p>${posts[i].author}</p>
+//     </div>`;
+// }
+
+// posts.forEach(function(post) {
+//     console.log(post)
+//     postsCont.innerHTML += `<div class="post"
+//         <h6>${post.title}</h6> 
+//         <p>${post.descr}</p>
+//         <p>${post.author}</p>
+//     </div>`;
+// })
+
+// const numbers = [10, 30, 25, 60, 13]
+
+// numbers.forEach(function(number) {
+//     console.log(number)
+// })
+
+// const names = ["Fhj", "HJHkk", "hgh", "ghgh", "gh"]
+// names.forEach(function(name) {
+//     console.log(`Привет ${name}`)
+// })
