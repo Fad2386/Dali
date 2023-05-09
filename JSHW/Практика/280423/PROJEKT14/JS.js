@@ -1,18 +1,18 @@
-// const button = document.querySelector(".btn")
-// const button1 = document.querySelector(".btn1")
-// const title = document.querySelector("h1")
+const button = document.querySelector(".btn")
+const button1 = document.querySelector(".btn1")
+const title = document.querySelector("h1")
 
-// let counter = 0
-// button.addEventListener("click", function() {
-//     counter++
-//     title.innerText = counter
-// })
+let counter = 0
+button.addEventListener("click", function() {
+    counter++
+    title.innerText = counter
+})
 
 
-// button1.addEventListener("click", function() {
-//     counter--
-//     title.innerText = counter
-// })
+button1.addEventListener("click", function() {
+    counter--
+    title.innerText = counter
+})
 
  const body = document.body;
 

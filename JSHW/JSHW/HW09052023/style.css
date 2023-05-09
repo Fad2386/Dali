@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Project_1, .Project_2, .Project_3 {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 50px;
+}
+.Project_1{
+    background: linear-gradient(180deg, rgb(146, 255, 130), rgb(0, 58, 244));
+}
+.Project_2 {
+    background: linear-gradient(0deg, rgb(0, 2, 2), rgb(1, 185, 190), rgb(255, 255, 255));
+}
+.Project_3 {
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(187, 84, 84), rgb(225, 255, 50));
+}
+.rectangle, .rec {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.54);
+}
+.rectangle {
+    background: #ff3535;
+}
+.rectangle2 {
+    background-color: #11ff00;
+    transform: scale(50%);
+    transition: 1s;
+}
+.rec {
+    background: #ff96f6;
+}
+.rec2 {
+    background-color: #001aff;
+    transition: 1s;
+}
+.rect {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background: #ff9696;
+    transition: 1s;
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.54);
+}
+.rect2 {
+    transform: scale(1.2, 1.2);
+    transition: 1s;
+}
+.button, .button1, .button2, .buttonRoot, .btn {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.button1 {
+    background-color: rgb(151, 6, 255);
+    box-shadow: 0px 0px 21px 8px rgba(255, 255, 255, 1);
+}
+
+.button2 {
+    background-color: rgb(255, 226, 164);
+    box-shadow: 0px 0px 21px 8px rgb(45, 45, 45);
+}
+.button {
+    background-color: rgb(255, 255, 125);
+    box-shadow: 0px 0px 21px 8px rgba(255, 255, 255, 1);
+}
+.buttonRoot, .btn {
+    background-color: rgb(255, 193, 35);
+    border-radius: 10%;
+    box-shadow: 0px 0px 21px 8px rgb(45, 37, 0);
+}
+.root, .root_1 {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(45deg, #f5f7fa, #c3cfe2);
+    margin-top: 50px;
+}
+p {
+    color: #001aff;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+
