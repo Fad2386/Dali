@@ -8,4 +8,7 @@ public class HW2 {
         System.out.println(result + 6);
         System.out.println(result1 + 6);
     }
+
+    public static class HW3 {
+    }
 }
