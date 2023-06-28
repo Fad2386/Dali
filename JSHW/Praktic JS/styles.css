@@ -1,40 +1,107 @@
 body {
-   font-family: 'ubuntu';
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
+    font-family: 'ubuntu';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-.header-container {
+
+.header-container{
     display: flex;
     max-width: 1181px;
     height: 58px;
     justify-content: space-between;
-    margin: 53px 370px 117px 370px;
+    margin: 53px 10% 117px 10%;
 }
+
 .logo-container {
     display: flex;
     gap: 25px;
 }
-.list-container{
+
+.list-container {
+    display: flex;
+    list-style: none;
+    gap: 37px;
+    font-weight: 700;
+}
+
+.footer-container {
     display: flex;
     list-style: none;
     gap: 37px;
 }
+
 .title {
     font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  color: #202020;
+    font-weight: 700;
+    font-size: 24px;
+    color: #202020;
 }
-.button {
+
+.nav-button {
     border: none;
-    background: #5528ff;
+    min-width: 100px;
+    width: auto;
+    height: 24px;
+    background: #5528FF;
     border-radius: 5px;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    width: 100px;
-    height: 24px;
     color: #ffffff;
-  }
+}
+
+.box {
+    width: 13px;
+    height: 13px;
+    color: #ff3838;
+}
+
+/*footer*/
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% 0 10%;
+    background: #f7f7f7;
+    width: 80%;
+    max-width: 1181px;
+    height: 100px;
+}
+.social-container{
+    display: flex;
+    gap: 40px;
+}
+/*content*/
+.content {
+    max-width: 1186px;
+    height: auto;
+    margin: 100px 10% 117px 10%;
+}
+.texthead {
+    font-size: 57px;
+}
+p{
+    font-size: 32px;
+}
+.pcontainer {
+    max-width: 741px;
+    height: 196px;
+    margin-top: 35px;
+}
+.btncontent {
+    margin-top: 70px;
+    border: none;
+    min-width: 100px;
+    width: 235px;
+    height: 60px;
+    background: #5528FF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
