@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 950px;
+    height: 180px;
+    background-color: aqua;
+}
+.box {
+  width: 45px;
+  height: 45px;
+  background-color: red;
+}
+
+@media (max-width: 780px) {
+    p {
+        max-width: 380px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+}
